@@ -4,8 +4,8 @@ body {
     color: white;
 }
 
-a {
-    white-space: nowrap;
+p {
+    display: inline;
 }
 
 a:link {

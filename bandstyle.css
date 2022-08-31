@@ -4,6 +4,10 @@ body {
     color: white;
 }
 
+a {
+    white-space: nowrap;
+}
+
 a:link {
     color: yellow;
 }

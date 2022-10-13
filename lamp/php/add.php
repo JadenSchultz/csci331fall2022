@@ -36,7 +36,7 @@ if ($conn->connect_error) {
 }
 
 // SQL OPPERATIONS
-$sql = "INSERT INTO db33 VALUES ('$firstname')";
+$sql = "INSERT INTO randuser VALUES ('$firstname')";
 
 if ($conn->query($sql) === TRUE) {
   echo "New record created successfully";
@@ -47,7 +47,7 @@ if ($conn->query($sql) === TRUE) {
 
 
 // Display names from the database
-$sql = "SELECT firstname FROM db33";
+$sql = "SELECT first FROM randuser";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {

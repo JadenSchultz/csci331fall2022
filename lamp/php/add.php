@@ -23,9 +23,9 @@ echo "<p><strong>$firstname</strong> has been added.</p>";
 // DATABASE OPERATIONS:
 // https://www.w3schools.com/php/php_mysql_insert.asp
 $servername = "localhost";
-$username = "user33";
-$password = "33ross";
-$dbname = "db33";
+$username = "user22";
+$password = "22xxxx";
+$dbname = "db22";
 
 // Create connection (assuming these exist -- we set up the DB on the CLI)
 $conn = new mysqli($servername, $username, $password, $dbname);

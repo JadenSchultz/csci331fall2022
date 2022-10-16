@@ -23,9 +23,9 @@ echo "<p><strong>$firstname</strong> has been added.</p>";
 // DATABASE OPERATIONS:
 // https://www.w3schools.com/php/php_mysql_insert.asp
 $servername = "localhost";
-$username = "user22";
-$password = "22xxxx";
-$dbname = "db22";
+$username = "user33";
+$password = "33ross";
+$dbname = "db33";
 
 // Create connection (assuming these exist -- we set up the DB on the CLI)
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -47,7 +47,7 @@ if ($conn->query($sql) === TRUE) {
 
 
 // Display names from the database
-$sql = "SELECT first FROM randuser";
+$sql = "SELECT firstname FROM randuser";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {

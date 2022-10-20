@@ -28,6 +28,8 @@ fetch('https://randomuser.me/api')      // ...1st Promise obj resolves to Respon
             <h2 class="user">${apiFirst} ${apiLast}</h2>
             <p class="user">${apiFirst} lives in ${apiCountry} </p>
             <input type="hidden" name="apiFirst" value="${apiFirst}"/>
+            <input type="hidden" name="apiLast" value="${apiLast}"/>
+            <input type="hidden" name="apiFirst" value="${apiCountry}"/>
             `
             apiData = document.getElementById("apiData")
             apiData.innerHTML = htmlData

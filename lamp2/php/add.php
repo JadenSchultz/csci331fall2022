@@ -54,13 +54,17 @@ if ($conn->connect_error) {
 // SQL OPPERATIONS
 $sql = "INSERT INTO randuser2 VALUES ('$firstname', '$lastname', '$country')";
 
+echo "<div class ='col-md'>";
 if ($conn->query($sql) === TRUE) {
   echo "New record created successfully";
 } else {
   echo "Error: " . $sql . "<br>" . $conn->error;
 }
 
-
+echo "</div>"; //close col-md
+echo "</div>"; //close row
+echo "</div>"; //close container
+echo "<div class='container'>";
 
 // Display full names and countries from the database
 $sql = "SELECT * FROM randuser2";

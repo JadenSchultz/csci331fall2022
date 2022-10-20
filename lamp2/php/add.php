@@ -52,7 +52,7 @@ if ($conn->connect_error) {
 }
 
 // SQL OPPERATIONS
-$sql = "INSERT INTO randuser2 (firstname, lastname, country) VALUES ('$firstname', '$lastname', '$country')";
+$sql = "INSERT INTO randuser2 (first, last, country) VALUES ('$firstname', '$lastname', '$country')";
 
 echo "<div class ='col-md'>";
 if ($conn->query($sql) === TRUE) {

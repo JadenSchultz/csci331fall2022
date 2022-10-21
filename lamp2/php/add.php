@@ -85,7 +85,7 @@ echo "<tbody>";
   while($row = $result->fetch_assoc()) {
     echo "  <tr>";
     echo "    <td>" . $row['firstname'] . "<td>";
-    echo "    <td>" . $row['lastname'] . "<td>";
+    echo "" . $row['lastname'] . "<td>";
     echo "    <td>" . $row['country'] . "<td>";
     echo "  </tr>";
   }

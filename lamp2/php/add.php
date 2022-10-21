@@ -93,6 +93,8 @@ echo "<tbody>";
 echo "</tbody>";
 echo "</ttable>";
 
+include "footer.php";
+
 } else {
   echo "0 results";
 }
@@ -112,9 +114,5 @@ $conn->close();
 <button class = "btn btn-primary btn-lg mybutton" onclick="history.back()">&lt;&lt;Back</button>
 </div>
 <br>
-
-<?php 
-  include "footer.php";
-?> 
 
 </html>

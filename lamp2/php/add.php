@@ -89,11 +89,11 @@ echo "<tbody>";
     echo "" . $row['country'] . "<td>";
     echo "  </tr>";
   }
-
-  include "footer.php";
   
 echo "</tbody>";
 echo "</ttable>";
+
+include "footer.php";
 
 } else {
   echo "0 results";

@@ -86,7 +86,7 @@ echo "<tbody>";
     echo "  <tr>";
     echo "    <td>" . $row['firstname'] . "<td>";
     echo "" . $row['lastname'] . "<td>";
-    echo "    <td>" . $row['country'] . "<td>";
+    echo "" . $row['country'] . "<td>";
     echo "  </tr>";
   }
   

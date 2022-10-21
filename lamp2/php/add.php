@@ -91,7 +91,7 @@ echo "<tbody>";
   }
   
 echo "</tbody>";
-echo "</ttable>";
+echo "</table>";
 
 include "footer.php";
 

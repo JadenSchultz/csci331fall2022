@@ -28,12 +28,6 @@
     2. This is how we will do database opperations (DB is also on server)
 -->    
 
-<br><br>
-<div class = "mybuttonwrap">
-<button class = "btn btn-primary btn-lg mybutton" onclick="history.back()">&lt;&lt;Back</button>
-</div>
-<br>
-
 <?php
 // DYNAMIC HTML
 $firstname = $_GET['apiFirst'];
@@ -95,17 +89,18 @@ echo "<tbody>";
     echo "" . $row['country'] . "<td>";
     echo "  </tr>";
   }
+
+  include "footer.php";
   
 echo "</tbody>";
 echo "</ttable>";
-
-include "footer.php";
 
 } else {
   echo "0 results";
 }
 
 $conn->close();
+
 ?>
 
 <!-- Optional JavaScript -->
@@ -114,6 +109,11 @@ $conn->close();
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
+<br><br>
+<div class = "mybuttonwrap">
+<button class = "btn btn-primary btn-lg mybutton" onclick="history.back()">&lt;&lt;Back</button>
+</div>
+<br>
 
 </body>
 

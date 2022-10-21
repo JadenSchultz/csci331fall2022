@@ -93,11 +93,11 @@ echo "<tbody>";
 echo "</tbody>";
 echo "</ttable>";
 
-<br><br>
-<div class = "mybuttonwrap">
-<button class = "btn btn-primary btn-lg mybutton" onclick="history.back()">&lt;&lt;Back</button>
-</div>
-<br>
+echo "<br><br>";
+echo "<div class = "mybuttonwrap">";
+echo "<button class = "btn btn-primary btn-lg mybutton" onclick="history.back()">&lt;&lt;Back</button>";
+echo "</div>";
+echo "<br>";
 
 include "footer.php";
 

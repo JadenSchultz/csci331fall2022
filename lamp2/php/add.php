@@ -33,7 +33,9 @@
 $firstname = $_GET['apiFirst'];
 $lastname = $_GET['apiLast'];
 $country = $_GET['apiCountry'];
-echo "<p><strong>$firstname</strong> has been added.</p>";
+echo "<div class ='alert alert-success' role='alert'>";
+  echo "<p><strong>$firstname</strong> has been added.</p>";
+echo "</div>";
 
 
 // DATABASE OPERATIONS:
@@ -56,7 +58,9 @@ $sql = "INSERT INTO randuser2 (firstname, lastname, country) VALUES ('$firstname
 
 echo "<div class ='col-md'>";
 if ($conn->query($sql) === TRUE) {
-  echo "New record created successfully";
+  echo "<div class ='alert alert-primary' role='alert'>";
+    echo "New record created successfully";
+  echo "</div>";
 } else {
   echo "Error: " . $sql . "<br>" . $conn->error;
 }

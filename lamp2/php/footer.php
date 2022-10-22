@@ -6,4 +6,4 @@
 </div>
 <br>
 
-<p>The [INSERT FEATURES HERE] features of this webpage were all implemented using Bootstrap.</p>
+<p>The primary and success alert features of this webpage were all implemented using Bootstrap.</p>

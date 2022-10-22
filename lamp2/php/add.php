@@ -33,8 +33,10 @@
 $firstname = $_GET['apiFirst'];
 $lastname = $_GET['apiLast'];
 $country = $_GET['apiCountry'];
-echo "<div class ='alert alert-primary' role='alert'>";
-  echo "<p><strong>$firstname</strong> has been added.</p>";
+echo "<div class ='col-md'>";
+  echo "<div class ='alert alert-primary' role='alert'>";
+    echo "<p><strong>$firstname</strong> has been added.</p>";
+  echo "</div>";
 echo "</div>";
 
 
